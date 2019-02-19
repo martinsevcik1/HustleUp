@@ -14,6 +14,7 @@
 		8FE81662221C62AE00075568 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FE81660221C62AE00075568 /* LaunchScreen.storyboard */; };
 		8FE8166D221C62AE00075568 /* HustleUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE8166C221C62AE00075568 /* HustleUpTests.swift */; };
 		8FE81678221C62AE00075568 /* HustleUpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE81677221C62AE00075568 /* HustleUpUITests.swift */; };
+		8FE81686221C63EE00075568 /* hustle-on.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8FE81685221C63ED00075568 /* hustle-on.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		8FE81673221C62AE00075568 /* HustleUpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HustleUpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FE81677221C62AE00075568 /* HustleUpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HustleUpUITests.swift; sourceTree = "<group>"; };
 		8FE81679221C62AE00075568 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FE81685221C63ED00075568 /* hustle-on.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "hustle-on.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		8FE81656221C62A800075568 /* HustleUp */ = {
 			isa = PBXGroup;
 			children = (
+				8FE81685221C63ED00075568 /* hustle-on.wav */,
 				8FE81657221C62A800075568 /* AppDelegate.swift */,
 				8FE81659221C62A800075568 /* ViewController.swift */,
 				8FE8165B221C62A800075568 /* Main.storyboard */,
@@ -229,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FE81686221C63EE00075568 /* hustle-on.wav in Resources */,
 				8FE81662221C62AE00075568 /* LaunchScreen.storyboard in Resources */,
 				8FE8165F221C62AE00075568 /* Assets.xcassets in Resources */,
 				8FE8165D221C62A800075568 /* Main.storyboard in Resources */,
@@ -433,6 +437,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CJ556HJH9U;
 				INFOPLIST_FILE = HustleUp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +455,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CJ556HJH9U;
 				INFOPLIST_FILE = HustleUp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
